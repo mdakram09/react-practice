@@ -5,6 +5,7 @@ import Slider from './MyComponents/Slider'
 import { Cards } from './MyComponents/Cards'
 import { Footer } from './MyComponents/Footer'
 import { About } from './MyComponents/About'
+import {Contact} from './MyComponents/Contact'
 
 
 import React, { } from 'react';
@@ -40,6 +41,13 @@ function App() {
             <Cards />
             <Footer />
 
+          </Route>
+
+
+          <Route exact path="/contact">
+            <Header/>
+            <Contact/>
+            <Footer/>
           </Route>
 
         </Switch>

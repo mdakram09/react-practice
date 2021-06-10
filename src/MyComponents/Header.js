@@ -37,7 +37,7 @@ const Header = (props) => {
                                 </ul>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link disabled" to="#" tabindex="-1" aria-disabled="true">Disabled</Link>
+                                <Link className="nav-link" to="/contact" tabindex="-1" aria-disabled="true">Contact Us</Link>
                             </li>
                         </ul>
                         <form className="d-flex">
