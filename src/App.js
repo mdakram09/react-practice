@@ -24,22 +24,23 @@ function App() {
 
 
         <Switch>
+
+
           <Route exact path="/">
             <Header />
             <Slider />
             <Cards />
             <Footer />
-
           </Route>
+
+
           <Route exact path="/about">
-          <Header />
-         
+            <Header />
             <About />
             <Cards />
             <Footer />
 
           </Route>
-
 
         </Switch>
 
